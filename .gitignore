@@ -1,0 +1,51 @@
+# .gitignore for Chat System
+
+# Build directories
+build/
+out/
+*.o
+*.a
+*.so
+*.lib
+*.exe
+*.dll
+
+# Qt generated files
+moc_*.cpp
+ui_*.h
+*.rcc
+.qmake.stash
+
+# IDE files
+.vs/
+.vscode/
+*.vcxproj.user
+*.pro.user
+CMakeSettings.json
+.idea/
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Data files
+data/users.txt
+data/chat.log
+data/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Debug files
+*.pdb
+*.ilk
+
+# Backup files
+*.bak
+*.backup
